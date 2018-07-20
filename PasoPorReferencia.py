@@ -2,7 +2,7 @@
 def Duplica( lista ):
    "Funcion que duplica los valores de una lista dada"
    print "Valores fuera de la funcion ", lista
-   for i in range(len(lista))::
+   for i in range(len(lista)):
      lista[i]=2*lista[i]
    print "Valores dentro de la funcion: ", lista
    return
